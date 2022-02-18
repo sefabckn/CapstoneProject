@@ -4,3 +4,4 @@ export { default as Market } from "./Market";
 export { default as Transactions } from "./Transactions";
 export { default as Details } from "./Details";
 export { default as News } from "./News";
+export { default as Footer } from "./Footer";
