@@ -7,6 +7,7 @@ import {
   Details,
   News,
   Footer,
+  Account,
 } from "./components";
 import { Space, Typography } from "antd";
 import { Link } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/account" element={<Account />}></Route>
           <Route path="/market" element={<Market />}></Route>{" "}
           {/* cryptocurrencies */}
           <Route path="/transactions" element={<Transactions />}></Route>
@@ -42,6 +44,7 @@ function App() {
           <Link to="/market">Market</Link>
           <Link to="/transactions">Transactions</Link>
           <Link to="/news">News</Link>
+          <Link to="/account">Account</Link>
         </Space>
       </div>
     </BrowserRouter>
