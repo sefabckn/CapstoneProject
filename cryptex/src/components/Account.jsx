@@ -1,7 +1,12 @@
+import { Avatar } from "antd";
+import { UserOutlined } from "@ant-design/icons";
+
 const Account = () => {
   return (
     <>
-      <h4>Account</h4>
+      <div>
+        <Avatar size={64} icon={<UserOutlined />} />
+      </div>
     </>
   );
 };

@@ -9,7 +9,7 @@ import {
   TeamOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import icon from "../images/blockchain.jpg";
+import icon from "../images/icon2.png";
 import { useState } from "react";
 
 const { SubMenu } = Menu;
@@ -57,9 +57,6 @@ const MyNavbar = () => {
           <Menu.Item icon={<HomeOutlined />}>
             <Link to="/"> Home </Link>
           </Menu.Item>
-          <Menu.Item icon={<TeamOutlined />}>
-            <Link to="/account"> Account </Link>
-          </Menu.Item>
           <Menu.Item icon={<FundOutlined />}>
             <Link to="/market">Market</Link>
           </Menu.Item>
@@ -68,6 +65,9 @@ const MyNavbar = () => {
           </Menu.Item>
           <Menu.Item icon={<BulbOutlined />}>
             <Link to="/news">News</Link>
+          </Menu.Item>
+          <Menu.Item icon={<TeamOutlined />}>
+            <Link to="/account"> Account </Link>
           </Menu.Item>
         </Menu>
       </div>
