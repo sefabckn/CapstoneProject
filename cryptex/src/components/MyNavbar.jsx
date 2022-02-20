@@ -12,48 +12,19 @@ import { Link } from "react-router-dom";
 import icon from "../images/icon2.png";
 import { useState } from "react";
 
-const { SubMenu } = Menu;
 const MyNavbar = () => {
-  const [theme, setTheme] = useState("dark");
-  const [current, setCurrent] = useState(1);
-
-  const changeTheme = (value) => {
-    setTheme(value ? "dark" : "light");
-  };
-
-  const handleClick = (e) => {
-    console.log("click ", e);
-    setCurrent(e.key);
-  };
-
   return (
     <>
       <div className="nav-container">
         <div className="logo-container">
           <Avatar src={icon} size="large" />
-          <Typography.Title
-            level={2}
-            className="logo"
-            style={{ color: "white" }}
-          >
+          <Typography.Title level={2} className="logo">
             <Link to="/">Cryptex</Link>
           </Typography.Title>
           <Button className="menu-control-container"></Button>
         </div>
-        <Switch
-          checked={theme === "dark"}
-          onChange={changeTheme}
-          checkedChildren="Dark"
-          unCheckedChildren="Light"
-        />
-        <Menu
-          theme={theme}
-          onClick={handleClick}
-          style={{ width: 256 }}
-          defaultOpenKeys={["sub1"]}
-          selectedKeys={[current]}
-          mode="inline"
-        >
+
+        <Menu theme="dark">
           <Menu.Item icon={<HomeOutlined />}>
             <Link to="/"> Home </Link>
           </Menu.Item>

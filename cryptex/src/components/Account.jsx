@@ -1,12 +1,10 @@
-import { Avatar } from "antd";
-import { UserOutlined } from "@ant-design/icons";
+import { useParams } from "react-router";
 
 const Account = () => {
+  let params = useParams();
   return (
     <>
-      <div>
-        <Avatar size={64} icon={<UserOutlined />} />
-      </div>
+      <h4>Hello Account</h4>
     </>
   );
 };
