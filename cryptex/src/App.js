@@ -16,10 +16,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   const { Content, Footer, Sider } = Layout;
   return (
-    <BrowserRouter>
+    <>
       <Layout>
         <Sider
-          breakpoint="lg"
+          breakpoint="md"
           collapsedWidth="0"
           onBreakpoint={(broken) => {
             console.log(broken);
@@ -31,7 +31,7 @@ function App() {
           {" "}
           <MyNavbar />{" "}
         </Sider>
-        <Content style={{ margin: "24px 16px 0" }}>
+        <Content className="main" style={{ margin: "24px 16px 0" }}>
           <div
             className="site-layout-background"
             style={{ padding: 24, minHeight: 360 }}
@@ -65,7 +65,7 @@ function App() {
           <Link to="/account">Account</Link>
         </Space>
       </Footer>
-    </BrowserRouter>
+    </>
   );
 }
 export default App;

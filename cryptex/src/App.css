@@ -2,7 +2,7 @@
   --text-primary: #000;
   --bgPrimary: #fff;
   --bgSecondary: #f9f9f9;
-  --pink: #0071bd;
+  --pink: #6395b6;
   --light-blue: #e6f7ff;
   --border: #d9d9d9;
 }
@@ -72,8 +72,20 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: #fff;
+}
 
-@media screen and (max-width: 1300px) {
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+@media screen and (max-width: 1366px) {
   .main {
     margin-left: 50px;
   }
@@ -353,6 +365,7 @@ a:hover {
 .search-crypto {
   margin: 20px auto 30px auto;
   width: 250px;
+  border-radius: 10px;
 }
 .crypto-card-container {
   min-height: 65vh !important;
