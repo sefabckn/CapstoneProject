@@ -33,12 +33,7 @@ export const data = {
 const PieChart = () => {
   return (
     <>
-      <Row>
-        <Col span={12}>Form</Col>
-        <Col span={12}>
-          <Pie data={data} />;
-        </Col>
-      </Row>
+      <Pie data={data} />;
     </>
   );
 };

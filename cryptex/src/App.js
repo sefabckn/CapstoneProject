@@ -3,7 +3,6 @@ import {
   MyNavbar,
   Home,
   Market,
-  Transactions,
   Details,
   News,
   Footer,
@@ -41,8 +40,6 @@ function App() {
               <Route path="/account" element={<Account />}></Route>
               <Route path="/market" element={<Market />}></Route>{" "}
               {/* cryptocurrencies */}
-              <Route path="/transactions" element={<Transactions />}></Route>
-              {/* exchanges */}
               <Route path="/crypto/:coinId" element={<Details />}></Route>
               <Route path="/news" element={<News />}></Route>
             </Routes>
@@ -60,7 +57,6 @@ function App() {
         <Space>
           <Link to="/">Home</Link>
           <Link to="/market">Market</Link>
-          <Link to="/transactions">Transactions</Link>
           <Link to="/news">News</Link>
           <Link to="/account">Account</Link>
         </Space>

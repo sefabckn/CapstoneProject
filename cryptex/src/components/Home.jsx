@@ -1,7 +1,7 @@
 import millify from "millify"; //Converts long numbers into pretty, human-readable strings.
 import { Typography, Layout, Row, Col, Statistic } from "antd";
 import { Link } from "react-router-dom";
-import { Carousel } from "antd";
+import { Carousel, Image } from "antd";
 import { useGetCryptosQuery } from "../services/CryptoApi";
 import isLoading from "../components/isLoading";
 import { isAllOf } from "@reduxjs/toolkit";
@@ -14,7 +14,6 @@ const Home = () => {
     color: "#fff",
     lineHeight: "160px",
     textAlign: "center",
-    background: "#364d79",
   };
   const { data, isFetching } = useGetCryptosQuery(10);
 
@@ -27,16 +26,7 @@ const Home = () => {
   return (
     <>
       <Row>
-        <Col>
-          <Carousel autoplay>
-            <div>
-              <h3 style={contentStyle}>Photos will Come from News API</h3>
-            </div>
-            <div>
-              <h3 style={contentStyle}>Photos will Come from News API</h3>
-            </div>
-          </Carousel>
-        </Col>
+        <Col></Col>
       </Row>
       <Title level={2} className="heading">
         {" "}
