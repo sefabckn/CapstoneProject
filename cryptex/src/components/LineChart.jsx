@@ -31,15 +31,28 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
     ],
   };
 
+  // const options = {
+  //   scales: {
+  //     yAxes: [
+  //       {
+  //         ticks: {
+  //           beginAtZero: true,
+  //         },
+  //       },
+  //     ],
+  //   },
+  // };
+
   const options = {
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: true,
-          },
-        },
-      ],
+    responsıve: true,
+    plugins: {
+      legend: {
+        position: "top",
+      },
+      title: {
+        display: true,
+        text: "Example",
+      },
     },
   };
 

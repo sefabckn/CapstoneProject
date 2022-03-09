@@ -1,13 +1,17 @@
 import { useParams } from "react-router";
 import PieChart from "./PieChart";
-import { Typography, Row, Col } from "antd";
+import { Typography, Row, Col, Image } from "antd";
 import profile from "../images/profile.jpg";
 import { Form, Input, InputNumber, Button } from "antd";
+import { useState } from "react";
+import { EditFilled } from "@ant-design/icons";
 
 const { Title } = Typography;
 
 const Account = () => {
   let params = useParams();
+  const [update, setUpdate] = useState(false);
+
   const layout = {
     labelCol: {
       span: 8,
@@ -33,11 +37,17 @@ const Account = () => {
   const onFinish = (values) => {
     console.log(values);
   };
+  const handleClick = (e) => {
+    //e.preventDefault;
+  };
 
   return (
     <>
-      <Title level={3}> My Assets</Title>
+      <Title level={3}> My Account</Title>
       <Row>
+        <Col span={2}>
+          <Image width={100} src={profile} style={{ borderRadius: "50%" }} />
+        </Col>
         <Col span={12}>
           <Form
             {...layout}
@@ -45,12 +55,7 @@ const Account = () => {
             onFinish={onFinish}
             validateMessages={validateMessages}
           >
-            <img
-              src={profile}
-              alt="profile-photo"
-              width={84}
-              style={{ borderRadius: "50%" }}
-            />
+            <EditFilled />
             <Form.Item
               name={["user", "name"]}
               label="Name"
@@ -85,7 +90,8 @@ const Account = () => {
             </Form.Item>
           </Form>
         </Col>
-        <Col span={12}>
+        <Col span={8}>
+          <Title level={5}> My Assets</Title>
           <PieChart />
         </Col>
       </Row>
