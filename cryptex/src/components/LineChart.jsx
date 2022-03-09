@@ -1,8 +1,26 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Tooltip,
+  Legend,
+} from "chart.js";
 import { Col, Row, Typography } from "antd";
 
 const { Title } = Typography;
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Tooltip,
+  Legend
+);
 
 const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   const coinPrice = [];
@@ -31,27 +49,11 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
     ],
   };
 
-  // const options = {
-  //   scales: {
-  //     yAxes: [
-  //       {
-  //         ticks: {
-  //           beginAtZero: true,
-  //         },
-  //       },
-  //     ],
-  //   },
-  // };
-
   const options = {
-    responsıve: true,
+    responsive: true,
     plugins: {
       legend: {
         position: "top",
-      },
-      title: {
-        display: true,
-        text: "Example",
       },
     },
   };
