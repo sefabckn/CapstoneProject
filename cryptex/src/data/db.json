@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sefa",
+      "surname": "Bockun",
+      "email": "sefabckn@gmail.com",
+      "job": "Frontend developer",
+      "age": 25,
+      "Country": "Poland"
+    }
+  ]
+}
