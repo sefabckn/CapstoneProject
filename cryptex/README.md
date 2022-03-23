@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# CRYPTEX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cryptex is a blockchain application that users can track up to 100 coins, more technical details about coins, also users are able to see the historical changes of any coin through the line chart, data displaying range can be arranged from 3h to 7days. Users are also able to display general crypto stats and updated news about the coins.
 
-## Available Scripts
+This project was created with by using the following Technologies:
+  - Main UI library is <b>React JS</b>
+  - State management and API calls been made with <b>REDUX TOOLKIT</b>.
+  - User Experience created with <b>AntDesign</b> and components.
+  - JSON Server for a fake <b>REST API</b>
+  - <b>CSS</b>
 
-In the project directory, you can run:
+## Navbar
 
-### `npm start`
+Navbar is used to navigate user across the different sections which are <b>Home, Market, News, Account </b>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Home Page includes <b>Global Crytpo Stats</b>
 
-### `npm test`
+Home Page Screenshot :[home_page_screenshot](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Market Page
 
-### `npm run build`
+Market show 100 coins can be traded on trading platform. User is able to search any coins by using search bar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Market Page Screenshot : [market_page](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/2.png)
+Market Page Searching feature screenshot : [search_market_page](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/3.png)
+Market Page Chart : [market_page_Chart_details](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/7.png)
+Market Page Details : [market_page_details](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/8.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### News Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Through this page the user is able to check news about coins.
+News page screenshot : [news_page_screenshot](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/4.png)
+News page search feature screenshot : [news_page_search_feature](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/5.png)
+News page search category screenshot : [news_page_search_category_feature](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/6.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Account Page
+Through this page the user is able to Update account details and display. User can see his assets in a pie Chart
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Account page screenshot : [account_page_screenshot](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/9.png)
+Account page user details screenshot: [account_page_screenshot](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/10.png)
