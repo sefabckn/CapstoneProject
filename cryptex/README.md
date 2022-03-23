@@ -17,7 +17,7 @@ Navbar is used to navigate user across the different sections which are <b>Home,
 
 Home Page includes <b>Global Crytpo Stats</b>
 
-Home Page Screenshot :[home_page_screenshot](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/1.png)
+Home Page Screenshot :![home_page_screenshot](https://github.com/sefabckn/CapstoneProject/tree/main/cryptex/src/images/2.png)
 
 ### Market Page
 
