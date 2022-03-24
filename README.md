@@ -17,27 +17,27 @@ Navbar is used to navigate user across the different sections which are <b>Home,
 
 Home Page includes <b>Global Crytpo Stats</b>
 
-Home Page Screenshot :![home_page_screenshot](src/images/1.png)
+Home Page Screenshot :![home_page_screenshot](cryptex/src/images/1.png)
 
 ### Market Page
 
 Market show 100 coins can be traded on trading platform. User is able to search any coins by using search bar.
 
-Market Page Screenshot : ![market_page](src/images/2.png)
-Market Page Searching feature screenshot : ![search_market_page](src/images/3.png)
-Market Page Chart : ![market_page_Chart_details](src/images/7.png)
-Market Page Details : ![market_page_details](src/images/8.png)
+Market Page Screenshot : ![market_page](cryptex/src/images/2.png)
+Market Page Searching feature screenshot : ![search_market_page](cryptex/src/images/3.png)
+Market Page Chart : ![market_page_Chart_details](cryptex/src/images/7.png)
+Market Page Details : ![market_page_details](cryptex/src/images/8.png)
 
 ### News Page
 
 Through this page the user is able to check news about coins.
-News page screenshot : ![news_page_screenshot](src/images/4.png)
-News page search feature screenshot : ![news_page_search_feature](src/images/5.png)
-News page search category screenshot : ![news_page_search_category_feature](src/images/6.png)
+News page screenshot : ![news_page_screenshot](cryptex/src/images/4.png)
+News page search feature screenshot : ![news_page_search_feature](cryptex/src/images/5.png)
+News page search category screenshot : ![news_page_search_category_feature](cryptex/src/images/6.png)
 
 
 ### Account Page
 Through this page the user is able to Update account details and display. User can see his assets in a pie Chart
 
-Account page screenshot : ![account_page_screenshot](src/images/9.png)
-Account page user details screenshot: ![account_page_screenshot](src/images/10.png)
+Account page screenshot : ![account_page_screenshot](cryptex/src/images/9.png)
+Account page user details screenshot: ![account_page_screenshot](cryptex/src/images/10.png)
